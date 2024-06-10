@@ -1,0 +1,272 @@
+/*Header*/
+body{
+    background-color: #000000;
+}
+
+header {
+    background: linear-gradient(1deg, #000000,black, #2b033d, #4a0769, #43045c);
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.img_logo{
+    border-radius: 50%;
+    overflow: hidden;  
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.menu{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 50px;
+    font-style: normal;
+    font-size: 1.5rem;
+    margin: 3rem;
+    }
+ 
+.menu > li > a {
+    color: rgb(248, 246, 246);
+    text-decoration: none;
+}
+
+
+.name > li > a{
+    color: azure;
+}
+
+.name:hover{
+    color: aqua;
+}
+
+.name1:hover{
+    color: rgb(71, 1, 235);
+}
+
+.name2:hover{
+    color: rgb(255, 0, 0);
+}
+
+/*Main*/
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+/*letra dos nomes*/
+main > section > div > a{
+    color: aliceblue;
+    font-size: 3rem;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.name:hover{
+    color: aqua;
+}
+
+.name1:hover{
+    color: rgb(135, 14, 248);
+}
+
+.name2:hover{
+    color: rgb(255, 0, 0);
+}
+
+/*Photo*/
+
+.photo {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 9px;
+}
+
+.photo{
+      box-shadow: 0 0 20px aqua;
+}
+
+.photo1 {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.photo1 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 9px;
+}
+
+.photo1{
+      box-shadow: 0 0 20px rgb(107, 2, 243);
+}
+
+
+.photo2 {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.photo2 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 9px;
+}
+
+.photo2{
+      box-shadow: 0 0 20px rgb(253, 8, 0);
+}
+
+
+/*Textos*/
+.section {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    gap: 1em;
+}
+
+.section > div {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    text-align: center;
+    min-width: 300px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.section > div {
+    color: #000000;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 50px;
+    font-style: normal;
+    text-decoration: none;
+}
+
+/*Gojo*/
+.text:hover{
+    color:#00ffff
+}
+
+/*Fushiguro*/
+.text1:hover{
+    color:#4400ff
+}
+
+/*Sukuna*/
+.text2:hover{
+    color:#ff0000
+}
+
+/*Footer*/
+footer {
+    font-size: 1rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 50px;
+    font-style: normal;
+    background: linear-gradient(180deg, #000000, #2b033d, #4a0769);
+    color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+}
+
+footer > p {
+    color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 1em 0;
+    gap: 3rem;
+}
+
+footer > p:hover {
+    color: rgb(137, 11, 255);
+}
+
+h3 > a {
+    color: rgb(255, 255, 255);
+    font-family: 'Kalam', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+h3 > a:hover {
+    color: red;
+}
+
+footer > div {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.letra > ul > li > a {
+    color: rgb(231, 231, 231);
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.letra> ul > li > a:hover {
+    color: rgb(73, 227, 233);
+}
+
+.letra > ul > li  {
+    margin-bottom: 35px; /* Adiciona espaço entre cada item da lista */
+}
+
+.img > img{
+    box-shadow: 0 0 50px rgb(253, 8, 0);
+}
+
+.img1 > img {
+    box-shadow: 0 0 50px rgb(0, 195, 255);
+}
+
+/* Responsividade */
+@media (max-width: 320px) {
+    .main_section, .sub-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
